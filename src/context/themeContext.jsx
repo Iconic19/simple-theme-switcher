@@ -7,7 +7,6 @@ export const ThemeProvider = (props) => {
   return (
     <ThemeContext.Provider value={{ themeMode, setThemeMode }}>
       {props.children}
-      console.log(props.children)
     </ThemeContext.Provider>
   );
 };
